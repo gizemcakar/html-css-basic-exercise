@@ -1,0 +1,25 @@
+/*  */
+
+
+
+#GizoShoeStore-heading-logo {
+                                align-items: start;
+                                width:200px;
+                                height: 200px;
+                                display: inline-block;
+}
+
+#GizoShoeStore-heading {
+                        font-family: 'Goudy Old Style', serif;
+                        font-style: italic;
+                        font-size: 60px;
+                        color:rgb(230, 62, 126);
+                        display: inline-block;
+                        margin: 0px 0px 0px 400px;
+                        padding: 10px 30px;
+                        border-radius:50px;
+                        border-style: dashed;
+                        border-color:chartreuse;
+}
+
+
