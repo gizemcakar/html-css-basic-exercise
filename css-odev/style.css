@@ -1,25 +1,90 @@
-/*  */
 
-
+header {
+        background-color: #fffaf6;
+}
 
 #GizoShoeStore-heading-logo {
-                                align-items: start;
-                                width:200px;
-                                height: 200px;
-                                display: inline-block;
+    width:700px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
 }
 
+
+/*
 #GizoShoeStore-heading {
-                        font-family: 'Goudy Old Style', serif;
-                        font-style: italic;
-                        font-size: 60px;
-                        color:rgb(230, 62, 126);
-                        display: inline-block;
-                        margin: 0px 0px 0px 400px;
-                        padding: 10px 30px;
-                        border-radius:50px;
-                        border-style: dashed;
-                        border-color:chartreuse;
+    font-family: 'Goudy Old Style', serif;
+    font-style: italic;
+    font-size: 60px;
+    color:rgb(230, 62, 126);
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 30px;
+    border-radius:50px;
+    border-style: dashed;
+    border-color:chartreuse;
+}
+*/
+
+
+.ust-butonlar {
+    display:inline-flex;
+    margin-left:200px;
 }
 
+
+#sign {
+    appearance: none;
+    color:magenta;
+    font-size: 14px;
+    border-style: double;
+    border-color: #aae1c5;
+    padding:8px 2px;
+    background-color: white;
+}
+
+#sign:hover {
+    background-color:#caebda;
+    color:blueviolet;
+    border-style:double;
+    border-color:#aae1c5;
+}
+
+
+#sepete-git-button {
+    border:0px;
+    appearance: none;
+    background-color: inherit;
+    margin-left:15px;
+    /* cursor:pointer; değişirilebilir hepsinde */
+}
+
+#sepete-git-img {
+    width:40px;
+    height:40px;
+}
+
+
+
+#nav-bar {
+    list-style-type:none;
+    display:inline-flex;
+    margin-left:360px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-size: 16px;
+    color:magenta;
+    padding:0px 10px;
+    margin-left: 25px;
+}
+
+#nav-bar a:hover {
+    background-color:#caebda;
+    color:blueviolet;
+    border-style:double;
+    border-color:#aae1c5;
+}
 
