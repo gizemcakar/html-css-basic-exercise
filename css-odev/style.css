@@ -1,6 +1,6 @@
 
 header {
-        background-color: #fffaf6;
+    background-color: #fffaf6;
 }
 
 #GizoShoeStore-heading-logo {
@@ -11,28 +11,14 @@ header {
     margin-bottom: 20px;
 }
 
-
-/*
-#GizoShoeStore-heading {
-    font-family: 'Goudy Old Style', serif;
-    font-style: italic;
-    font-size: 60px;
-    color:rgb(230, 62, 126);
-    display: inline-block;
-    margin: 0px;
-    padding: 10px 30px;
-    border-radius:50px;
-    border-style: dashed;
-    border-color:chartreuse;
+main {
+    padding-left:230px;
 }
-*/
-
 
 .ust-butonlar {
     display:inline-flex;
     margin-left:200px;
 }
-
 
 #sign {
     appearance: none;
@@ -42,6 +28,7 @@ header {
     border-color: #aae1c5;
     padding:8px 2px;
     background-color: white;
+    cursor: pointer;
 }
 
 #sign:hover {
@@ -51,21 +38,18 @@ header {
     border-color:#aae1c5;
 }
 
-
 #sepete-git-button {
     border:0px;
     appearance: none;
     background-color: inherit;
     margin-left:15px;
-    /* cursor:pointer; değişirilebilir hepsinde */
+    cursor:pointer;
 }
 
 #sepete-git-img {
     width:40px;
     height:40px;
 }
-
-
 
 #nav-bar {
     list-style-type:none;
@@ -88,3 +72,78 @@ header {
     border-color:#aae1c5;
 }
 
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index:1;
+    background-color: #caebda;
+    overflow-x: hidden; 
+
+}
+
+.sidenav #sidenav-a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color:magenta;
+    text-align: left;
+    cursor:pointer;
+    padding:8px 20px;
+    font-weight: bold;
+}
+
+.sidenav #sidenav-a:hover {
+    color:blueviolet;
+    background-color: #caebda;
+    border-style:double;
+}
+
+main h2 {
+    color:blueviolet;
+    font-size: 50px;
+    margin-left:290px;
+    margin-top: 70px;
+}
+
+section {
+    display:inline-block;
+    margin-right:30px;
+}
+
+#first-product {
+    width: 300px;
+    height:450px;
+}
+
+#second-product {
+    width: 300px;
+    height:450px;
+}
+
+#third-product {
+    width: 300px;
+    height:450px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #ffdcc9;    
+}
+
+footer ul {
+    padding-top:30px;
+    padding-left:230px;
+}
+
+footer li {
+    margin-right:40px;
+    display:inline-block;
+}
+footer a {
+    text-decoration: none;
+    color:black;
+}

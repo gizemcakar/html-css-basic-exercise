@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="shoes-images/GizoShoeStore-logo-shape.png" type="image/icon type">
+    <title>GizoShoeStore</title>
+    
+</head>
+<header>
+    <img id="GizoShoeStore-heading-logo" src="shoes-images/GizoShoeStore-big-logo.png" alt="GizoShoeStore">
+</header> 
+
+     <!--
+         *Sidebar: - CSS ile nasıl sola gelir, gizlenip açılacak şekilde olacak.
+                    - Menu'yu ifade eden bir button olacak; basınca yana açılacak ve altta kategori isimleri görünecek.
+        *Outlet (Sale ifade eden resim olacak) için resim ve üzerine basınca Outlet sayfasına gidecek.
+        Footer: Açık gri bir arkaplan içerisinde siyah başlık, beyaz açıklama metini olacak.
+
+    -->
+<body>
+    <nav id="nav-bar">
+        <strong>
+            <a href="about-us.html">About us</a>
+            <a href="products.html">Products</a>
+            <a href="new-products.html">News</a>
+            <a href="outlet.html">Outlet</a>
+            <a href="career.html">Career</a>
+            <a href="contact.html">Contact</a>
+        </strong>
+    </nav>
+    <div class="ust-butonlar">
+        <button id="sign"><strong>Sign in!</strong></button>
+        <button id="sepete-git-button" type="button">
+            <a href="sepet-sayfasi.html">
+            <img id="sepete-git-img" src="shoes-images/sepet-iconu.png" alt="sepete git"> 
+        </button>
+    </div>
+
+    <div class="sidenav">
+        <a id="sidenav-a" href="woman.html">Woman</a>
+        <a id="sidenav-a" href="man.html">Man</a>
+        <a id="sidenav-a" href="young.html">Young</a>
+    </div>
+
+    <main>
+        <h2>The Newests!</h2>
+        <section>
+            <a href="">
+                <img id="first-product" src="shoes-images/new-sneaker.jpg" alt="shoe1" title="Sneaker">
+            </a>
+        </section>
+        <section>
+            <a href="">
+                <img id="second-product" src="shoes-images/new-terlik.jpg" alt="shoe2" title="terlik">
+            </a>
+        </section>
+        <section>
+            <a href="">
+                <img  id="third-product" src="shoes-images/new-bag.jpg" alt="bag1" title="bag">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="">Copyright c 2023</a></li>
+            <li><a href="">User agreement</a></li>
+            <li><a href="">Communication</a></li>
+        </ul>
+            
+    </footer>
+    
+</body>
+</html>
