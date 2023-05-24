@@ -12,8 +12,7 @@
     font-family: Arial,sans-serif;
     font-size: 13px;
     color:#000000DE;
-    /* padding:15px 15px 0px 0px; */
-    margin-right:10px;
+    padding:15px 15px 0px 0px;
     line-height:24px;
 }
 
@@ -23,13 +22,13 @@
 
 #menu-button{
     display:inline-block;
-    margin-left:10px;
+    margin:0px 10px;
     vertical-align: middle;
 }
 
 #menu-button:hover{
     padding:5px;
-    background-color:rgb(206, 203, 203);
+    background-color:rgb(233, 232, 232);
     border-radius: 50%;
 }
 
@@ -41,7 +40,7 @@
 
 #google-account{
     display:inline-block;
-    padding:7px 10px 0px 10px;
+    padding:7px 10px 0px 6px;
 }
 
 #google-account a{
@@ -58,8 +57,8 @@
 
 
 #google-account:hover{
-    /* padding:4px 6px -3px 6px; */
-    background-color:rgb(206, 203, 203);
+    padding:3px;
+    background-color:rgb(233, 232, 232);
     border-radius: 50%;
 }
 
@@ -99,6 +98,10 @@
     outline:none;
 }
 
+#search-box:hover{
+    box-shadow: 1px 1px 2px #f2f2f2;
+}
+
 #search-buttons {
     margin:18px auto 0px;
     text-align:center;
@@ -106,13 +109,79 @@
 #search-buttons button{
     margin-right:4px;
     margin-left:4px;
-    border:none;
+    height:36px;
+    border:1px solid #f2f2f2;
     background-color: #F8F9FA;
     padding:10px 10px;
-    color:#3c4043;
+    color:#5f6368;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
     cursor:pointer;
+    border-radius: 4%;
 }
 
-footer div{
+#search-buttons button:hover{
+    box-shadow: 1px 1px 2px #f2f2f2;
+}
+
+.footer{
     background-color:#f2f2f2;
+    color:#70757A;
+    font-family: Arial,sans-serif;
+    font-size:15px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+
+}
+
+#footer-1{
+    height:18px;
+    padding:15px 30px;
+    border-bottom:1px solid #dadce0;
+}
+
+#footer-2{
+    height:17px;
+    float:left;
+    position: relative;
+    padding:15px;
+}
+
+#footer-2 a{
+    text-decoration: none;
+    color:#70757A;
+    padding:15px;
+}
+
+#footer-2 a:hover{
+    text-decoration: underline;
+}
+
+#footer-3{
+    display:inline-grid;
+    float:center;
+    position: relative;
+    padding: 15px 15px;
+    margin-left:120px;
+}
+
+#footer-3 a{
+    text-decoration: none;
+    color:#70757A;
+}
+
+#footer-4{
+    float:right;
+    position: relative;
+    height:17px;
+    padding:15px;
+}
+
+
+#footer-4 a{
+    padding:15px;
+    text-decoration: none;
+    color:#70757A;
 }
