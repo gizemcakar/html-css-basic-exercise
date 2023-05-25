@@ -1,0 +1,162 @@
+
+header {
+    background-color: #fffaf6;
+}
+
+#GizoShoeStore-heading-logo {
+    width:700px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+main {
+    padding-left:230px;
+}
+
+.ust-butonlar {
+    display:inline-flex;
+    margin-left:200px;
+}
+
+#sign {
+    appearance: none;
+    color:magenta;
+    font-size: 14px;
+    border-style: double;
+    border-color: #aae1c5;
+    padding:8px 2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#sign:hover {
+    background-color:#caebda;
+    color:blueviolet;
+    border-style:double;
+    border-color:#aae1c5;
+}
+
+#sepete-git-button {
+    border:0px;
+    appearance: none;
+    background-color: inherit;
+    margin-left:15px;
+    cursor:pointer;
+}
+
+#sepete-git-img {
+    width:40px;
+    height:40px;
+}
+
+#nav-bar {
+    list-style-type:none;
+    display:inline-flex;
+    margin-left:360px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-size: 16px;
+    color:magenta;
+    padding:0px 10px;
+    margin-left: 25px;
+}
+
+#nav-bar a:hover {
+    background-color:#caebda;
+    color:blueviolet;
+    border-style:double;
+    border-color:#aae1c5;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index:1;
+    background-color: #caebda;
+    overflow-x: hidden; 
+
+}
+
+.sidenav #sidenav-a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color:magenta;
+    text-align: left;
+    cursor:pointer;
+    padding:8px 20px;
+    font-weight: bold;
+}
+
+.sidenav #sidenav-a:hover {
+    color:blueviolet;
+    background-color: #caebda;
+    border-style:double;
+}
+
+
+main h2 {
+    color:blueviolet;
+    font-size: 50px;
+    margin: 50px 0px 20px 290px;
+}
+
+.jumbotron-fluid{
+    margin:40px 100px 0px;
+}
+
+.jumbotron-fluid h1{
+    color:#6dd39e;
+}
+.lead{
+    font-family:"Times New Roman",cursive;
+    font-style: italic;
+}
+
+section {
+    display:inline-block;
+    margin:10px 30px 0px 0px;
+}
+
+#first-product {
+    width: 300px;
+    height:450px;
+}
+
+#second-product {
+    width: 300px;
+    height:450px;
+}
+
+#third-product {
+    width: 300px;
+    height:450px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #ffdcc9;
+    text-align: center;
+}
+
+footer ul {
+    padding-top:30px;
+    padding-left:230px;
+}
+
+footer li {
+    margin-right:40px;
+    display:inline-block;
+}
+footer a {
+    text-decoration: none;
+    color:black;
+}
