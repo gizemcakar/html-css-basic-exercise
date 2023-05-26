@@ -11,8 +11,26 @@ header {
     margin-bottom: 20px;
 }
 
-main {
-    padding-left:230px;
+#nav-bar{
+    font-weight: bold;
+    list-style-type:none;
+    display:inline-flex;
+    margin-left:360px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-size: 16px;
+    color:magenta;
+    padding:0px 10px;
+    margin-left: 25px;
+}
+
+#nav-bar a:hover {
+    background-color:#caebda;
+    color:blueviolet;
+    border-style:double;
+    border-color:#aae1c5;
 }
 
 .ust-butonlar {
@@ -23,6 +41,7 @@ main {
 #sign {
     appearance: none;
     color:magenta;
+    font-weight:bold;
     font-size: 14px;
     border-style: double;
     border-color: #aae1c5;
@@ -49,27 +68,6 @@ main {
 #sepete-git-img {
     width:40px;
     height:40px;
-}
-
-#nav-bar {
-    list-style-type:none;
-    display:inline-flex;
-    margin-left:360px;
-}
-
-#nav-bar a {
-    text-decoration: none;
-    font-size: 16px;
-    color:magenta;
-    padding:0px 10px;
-    margin-left: 25px;
-}
-
-#nav-bar a:hover {
-    background-color:#caebda;
-    color:blueviolet;
-    border-style:double;
-    border-color:#aae1c5;
 }
 
 .sidenav {
@@ -101,6 +99,9 @@ main {
     border-style:double;
 }
 
+main {
+    padding-left:230px;
+}
 
 main h2 {
     color:blueviolet;
@@ -110,11 +111,13 @@ main h2 {
 
 .jumbotron-fluid{
     margin:40px 100px 0px;
+    background-color:#E9ECEF;
 }
 
 .jumbotron-fluid h1{
     color:#6dd39e;
 }
+
 .lead{
     font-family:"Times New Roman",cursive;
     font-style: italic;
@@ -125,38 +128,22 @@ section {
     margin:10px 30px 0px 0px;
 }
 
-#first-product {
-    width: 300px;
-    height:450px;
+.card-body{
+    background-color:#6dd39e;
 }
 
-#second-product {
-    width: 300px;
-    height:450px;
-}
-
-#third-product {
-    width: 300px;
-    height:450px;
-}
-
-footer {
-    width: 100%;
+.container-fluid{
     height: 90px;
     background-color: #ffdcc9;
-    text-align: center;
+    margin-top:20px;
 }
 
-footer ul {
-    padding-top:30px;
+.row{
     padding-left:230px;
+    padding-top:30px;
 }
 
-footer li {
-    margin-right:40px;
-    display:inline-block;
-}
-footer a {
+.row a {
     text-decoration: none;
     color:black;
 }

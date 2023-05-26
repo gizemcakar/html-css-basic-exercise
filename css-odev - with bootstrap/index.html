@@ -12,20 +12,20 @@
 
 <header>
     <img id="GizoShoeStore-heading-logo" src="shoes-images/GizoShoeStore-big-logo.png" alt="GizoShoeStore">
-</header> 
+</header>
+
 <body>
     <nav id="nav-bar">
-        <strong>
-            <a href="about-us.html">About us</a>
-            <a href="products.html">Products</a>
-            <a href="new-products.html">News</a>
-            <a href="outlet.html">Outlet</a>
-            <a href="career.html">Career</a>
-            <a href="contact.html">Contact</a>
-        </strong>
+        <a href="about-us.html">About us</a>
+        <a href="products.html">Products</a>
+        <a href="new-products.html">News</a>
+        <a href="outlet.html">Outlet</a>
+        <a href="career.html">Career</a>
+        <a href="contact.html">Contact</a>
     </nav>
+
     <div class="ust-butonlar">
-        <button id="sign"><strong>Sign in!</strong></button>
+        <button id="sign">Sign in!</button>
         <button id="sepete-git-button" type="button">
             <a href="sepet-sayfasi.html">
             <img id="sepete-git-img" src="shoes-images/sepet-iconu.png" alt="sepete git"> 
@@ -41,36 +41,44 @@
     <main>
         <div class="jumbotron-fluid">
             <div class="container">
-              <h1 class="display-6">Gorgeous designes for you!</h1>
-              <p class="lead text-center mt-3">To look perfect discover the latest models.</p>
+                <h1 class="display-6">Gorgeous designes for you!</h1>
+                <p class="lead text-center mt-3">To look perfect discover the latest models.</p>
             </div>
-          </div>
+        </div>
 
         <h2>The Newests!</h2>
         <section>
-            <a href="">
-                <img id="first-product" src="shoes-images/new-sneaker.jpg" alt="shoe1" title="Sneaker">
-            </a>
+            <div class="card" style="width: 18rem;">
+                <img src="shoes-images/new-sneaker.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Sneakers</h5>
+                </div>
+            </div>
         </section>
         <section>
-            <a href="">
-                <img id="second-product" src="shoes-images/new-terlik.jpg" alt="shoe2" title="terlik">
-            </a>
+            <div class="card" style="width: 18rem;">
+                <img src="shoes-images/new-terlik.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Slippers</h5>
+                </div>
+            </div>
         </section>
         <section>
-            <a href="">
-                <img  id="third-product" src="shoes-images/new-bag.jpg" alt="bag1" title="bag">
-            </a>
+            <div class="card" style="width: 18rem;">
+                <img src="shoes-images/new-bag.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Bags</h5>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <ul>
-            <li><a href="">Copyright c 2023</a></li>
-            <li><a href="">User agreement</a></li>
-            <li><a href="">Communication</a></li>
-        </ul>
-            
+    <footer class="container-fluid">
+        <div class="row mx-auto">
+                <a class="col-sm-4" href="">Copyright c 2023</a>
+                <a class="col-sm-4" href="">User agreement</a>
+                <a class="col-sm-4" href="">Communication</a>
+        </div>
     </footer>
     
 </body>
