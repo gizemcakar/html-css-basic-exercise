@@ -22,25 +22,81 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-white navbar-fixed-top space-around">
-    <a class="navbar-brand" href="#">
-      <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png" alt="" width="108" height="100%">
-    </a>
-    <form class="form-inline">
-      <input class="form-control fontAwesome text-center" type="search" placeholder="&#xf002; Ara" aria-label="Search" height="100%">
-      <!-- placeholder içindeki kod: bootstrap içerisindeki FontAwesome html icon kodu. fontAwesome class'ı ise,
-      css dosyasında yazı stilini tanımlayıp icon kodunun görüntülenmesini sağladı. -->
-    </form>
-    
-    <div class="top-symbols">
-      <i class="fa-solid fa-house-chimney mr-2"></i>
-      <i class="fa-brands fa-facebook-messenger mr-2"></i>
-      <i class="fa-regular fa-compass mr-2"></i>
-      <i class="fa-regular fa-heart mr-2"></i>
-      <button type="button"></button>
+  <nav class="navbar navbar-light bg-white border-bottom border-bottom-dark fixed-top space-around">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png" alt="" width="108" height="100%">
+      </a>
+      <form class="form-inline">
+        <input class="form-control fontAwesome text-center" type="search" placeholder="&#xf002; Ara" aria-label="Search" height="100%">
+        <!-- placeholder içindeki kod: bootstrap içerisindeki FontAwesome html icon kodu. fontAwesome class'ı ise,
+        css dosyasında yazı stilini tanımlayıp icon kodunun görüntülenmesini sağladı. -->
+      </form>
+      
+      <div>
+        <button type="button" class="btn btn-outline-default btn-padding-x" style="padding:0 0.25rem;">
+          <i class="fa-solid fa-house-chimney" style="height:18px;"></i>
+        </button>
+        <button type="button" class="btn btn-outline-default btn-padding-x" style="padding:0 0.25rem;">
+          <i class="fa-brands fa-facebook-messenger" style="height:18px;"></i>
+        </button>
+        <button type="button" class="btn btn-outline-default btn-padding-x" style="padding:0 0.25rem;">
+          <i class="fa-regular fa-compass" style="height:18px;"></i>
+        </button>
+        <button type="button" class="btn btn-outline-default btn-padding-x" style="padding:0 0.25rem;">
+          <i class="fa-regular fa-heart" style="height:18px;"></i>
+        </button>
+        <button type="button" class="btn-outline-primary rounded-circle d-inline-flex overflow-hidden" style="padding:0; width: 20px; height: 20px;">
+          <img class="img-responsive" src="https://m.media-amazon.com/images/I/814C+Ut-nuL._AC_UF1000,1000_QL80_.jpg" alt="" height="16px" width="16px">
+        </button>
       </div>
+    </nav>
+  
+    <!-- 
+    </div>
 
-  </nav>
+    
+  <div class="container text-center mt-5">
+    <div class="row">
+      <div class="col align-self-start">
+        One of three columns
+      </div>
+      <div class="col align-self-end">
+        One of three columns
+      </div>
+      <div class="col align-self-start">
+        One of three columns
+      </div>
+      <div class="col align-self-end">
+        One of three columns
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+          <p>Lorem, ipsum dolor.</p>
+          <p>Iusto, corrupti provident.</p>
+          <p>Animi, sit illum.</p>
+        </div>
+        <div class="col-sm-4">
+          <p>Lorem, ipsum dolor.</p>
+          <p>Iusto, corrupti provident.</p>
+          <p>Animi, sit illum.</p>
+        </div>
+    </div>
+  </div>
+
+
+
+ <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+  <div>Auto-column</div>
+  <div class="g-start-2" style="grid-row: 2">Auto-column</div>
+  <div class="g-start-3" style="grid-row: 3">Auto-column</div>
+</div>
+
+ -->
 
 </body>
 </html>
