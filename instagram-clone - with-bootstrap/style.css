@@ -1,15 +1,6 @@
-body{
-    padding:20px;
+button:focus{
+outline:0 !important;
 }
-
-.navbar{
-    height:54px;
-}
-
-.fontAwesome {
-    font-family: Helvetica, 'FontAwesome', sans-serif;
-}
-
 
 /* .account {
     background-image: url(https://m.media-amazon.com/images/I/814C+Ut-nuL._AC_UF1000,1000_QL80_.jpg);
