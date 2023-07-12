@@ -1,3 +1,7 @@
 .nav-item:active{
     border-bottom: solid 2px;
 } ▼
+
+#button-in-user-card:hover{
+    background-color:gray;
+}

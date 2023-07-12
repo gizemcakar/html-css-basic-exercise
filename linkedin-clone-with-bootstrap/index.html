@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkedIn</title>
-    <link rel="icon" type="image/svg+xml" href="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8"> 
+    <link rel="icon" type="image/svg+xml" href="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8">
     <!-- style.css dosyası-->
-    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- bootstrap'in style dosyaları-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- fontawesome icon görüntülemek için dosyalar-->
@@ -20,70 +28,82 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-light fixed-top border-bottom">
-        <div class="container-fluid">
-            <div class="col-4 d-flex">
-                <a class="navbar-brand" href="#">
-                    <img src="images/600px-LinkedIn_logo_initials.webp" alt="" width="34" height="34">
-                </a>
-                <div class="input-group w-75">
-                    <span class="input-group-text bg-body-secondary" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control bg-body-secondary border border-start-0" placeholder="Arama yap" aria-label="Username">
+    <div class="mb-5 pb-5">
+        <nav class="navbar navbar-expand-lg bg-body-light fixed-top border-bottom">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-3 d-flex">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/600px-LinkedIn_logo_initials.webp" alt="" width="34" height="34">
+                        </a>
+                        <div class="input-group" height="34">
+                            <span class="input-group-text bg-body-secondary" id="basic-addon1"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control bg-body-secondary border border-start-0"
+                                placeholder="Arama yap" aria-label="Username">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center text-center">
+                                <li class="nav-item px-1">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                    <a class="nav-link active py-0" aria-current="page" href="index.html"
+                                        target="_blank">Anasayfa</a>
+                                </li>
+                                <li class="nav-item px-1">
+                                    <i class="fa-solid fa-users"></i>
+                                    <a class="nav-link py-0" href="#">Ağım</a>
+                                </li>
+                                <li class="nav-item px-1">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                    <a class="nav-link py-0" href="#">İş İlanları</a>
+                                </li>
+                                <li class="nav-item px-1">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <a class="nav-link py-0" href="#">Mesajlaşma</a>
+                                </li>
+                                <li class="nav-item px-1">
+                                    <i class="fa-solid fa-bell"></i>
+                                    <a class="nav-link py-0" href="#">Bildirimler</a>
+                                </li>
+                                <li class="nav-item dropdown d-grid align-items-center px-1">
+                                    <img class="rounded-circle mb-1 ms-2" src="https://picsum.photos/200" alt="" width="19"
+                                        height="19">
+                                    <a class="nav-link dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Ben
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 border-start d-inline-flex text-center align-items-center">
+                        <div class="btn d-inline-grid" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" data-supported-dps="22x22"
+                                fill="currentColor" class="mercado-match mx-auto" width="22" height="22" focusable="false">
+                                <path
+                                    d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+                                </path>
+                            </svg>
+                            <button  class="text-muted d-inline-flex align-items-center my-0 dropdown-toggle btn btn-outline-none p-0">İş
+                                için</button>
+                        </div>
+                        <a href="">Premium'u ücretsiz deneyin</a>
+                    </div>
                 </div>
             </div>
-           <div class="col-8">
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center text-center">
-                    <li class="nav-item px-1">
-                        <i class="fa-solid fa-house-chimney"></i>
-                        <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Anasayfa</a>
-                    </li>
-                    <li class="nav-item px-1">
-                        <i class="fa-solid fa-users"></i>
-                        <a class="nav-link" href="#">Ağım</a>
-                    </li>
-                    <li class="nav-item px-1">
-                        <i class="fa-solid fa-briefcase"></i>
-                        <a class="nav-link" href="#">İş İlanları</a>
-                    </li>
-                    <li class="nav-item px-1">
-                        <i class="fa-solid fa-comment"></i>
-                        <a class="nav-link" href="#">Mesajlaşma</a>
-                    </li>
-                    <li class="nav-item px-1">
-                        <i class="fa-solid fa-bell"></i>
-                        <a class="nav-link" href="#">Bildirimler</a>
-                    </li>
-                    <li class="nav-item dropdown px-1 d-grid">
-                        <div class="btn btn-outline-none py-0 my-0">
-                            <img class="rounded-circle" src="https://picsum.photos/200" alt="" width="24" height="24">
-                        </div>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Ben
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>   
-            </div>  
-           </div>
-            
-        </div>
-        <div class="border-start d-inline-flex text-center align-items-center">
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                    <path d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"></path>
-                  </svg>
-                <p class="d-inline-flex my-0">İş için ▼</p>
-            </button>
-            <a href="">Premium'u ücretsiz deneyin</a>
-        </div>   
-    </nav>
-
+        </nav>
+    
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasRightLabel">İş için</h5>
@@ -92,89 +112,301 @@
             <div class="offcanvas-body">
                 <div class="card mb-2" style="width: 21rem;">
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item text-start fw-semibold lh-base"><h5>Diğer LinkedIn Ürünlerini Ziyaret Edin</h5></li>
-                      <li class="list-group-item">
-                        <div class="d-inline-grid align-items-center me-3 mb-2">
-                            <button class="btn text-center">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </button>
-                            <a class="text-muted text-decoration-none" href="">İş İlanları</a>
-                        </div>
-                        <div class="d-inline-grid align-items-center pe-2 mb-3">
-                            <button class="btn text-center">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </button>
-                            <a class="text-muted text-decoration-none" href="">İş İlanları</a>
-                        </div>
-                        <div class="d-inline-grid align-items-center pe-2 mb-3">
-                            <button class="btn text-center">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </button>
-                            <a class="text-muted text-decoration-none" href="">İş İlanları</a>
-                        </div>
-                        <div class="d-inline-grid align-items-center pe-2 mb-3">
-                            <button class="btn text-center">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </button>
-                            <a class="text-muted text-decoration-none" href="">İş İlanları</a>
-                        </div>
-                        <div class="d-inline-grid align-items-center pe-2 mb-3">
-                            <button class="btn text-center">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </button>
-                            <a class="text-muted text-decoration-none" href="">İş İlanları</a>
-                        </div>
-                        <div class="d-inline-grid align-items-center pe-2 mb-3">
-                            <button class="btn text-center">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </button>
-                            <a class="text-muted text-decoration-none" href="">İş İlanları</a>
-                        </div>
+                        <li class="list-group-item text-start fw-semibold lh-base">
+                            <h5>Diğer LinkedIn Ürünlerini Ziyaret Edin</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-inline-grid align-items-center me-3 mb-2">
+                                <button class="btn text-center">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </button>
+                                <a class="text-muted text-decoration-none" href="">İş İlanları</a>
+                            </div>
+                            <div class="d-inline-grid align-items-center pe-2 mb-3">
+                                <button class="btn text-center">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </button>
+                                <a class="text-muted text-decoration-none" href="">İş İlanları</a>
+                            </div>
+                            <div class="d-inline-grid align-items-center pe-2 mb-3">
+                                <button class="btn text-center">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </button>
+                                <a class="text-muted text-decoration-none" href="">İş İlanları</a>
+                            </div>
+                            <div class="d-inline-grid align-items-center pe-2 mb-3">
+                                <button class="btn text-center">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </button>
+                                <a class="text-muted text-decoration-none" href="">İş İlanları</a>
+                            </div>
+                            <div class="d-inline-grid align-items-center pe-2 mb-3">
+                                <button class="btn text-center">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </button>
+                                <a class="text-muted text-decoration-none" href="">İş İlanları</a>
+                            </div>
+                            <div class="d-inline-grid align-items-center pe-2 mb-3">
+                                <button class="btn text-center">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </button>
+                                <a class="text-muted text-decoration-none" href="">İş İlanları</a>
+                            </div>
                         </li>
                     </ul>
-                    </div>
-
-                    <div class="card" style="width: 21rem;">
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item text-start fw-semibold lh-base"><h5>LinkedIn Ticari Hizmetler</h5></li>
-                      <li class="list-group-item">
-                        <a href="" class="text-decoration-none">
-                            <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
-                            <p class="text-muted py-0">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
-                        </a>
-                        <a href="" class="text-decoration-none">
-                            <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
-                            <p class="text-muted py-0">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
-                        </a>
-                        <a href="" class="text-decoration-none">
-                            <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
-                            <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
-                        </a>
-                        <a href="" class="text-decoration-none">
-                            <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
-                            <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
-                        </a>
-                        <a href="" class="text-decoration-none">
-                            <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
-                            <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
-                        </a>
-                        <a href="" class="text-decoration-none">
-                            <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
-                            <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
-                        </a>
-                      </li>
+                </div>
+    
+                <div class="card" style="width: 21rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-start fw-semibold lh-base">
+                            <h5>LinkedIn Ticari Hizmetler</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="" class="text-decoration-none">
+                                <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
+                                <p class="text-muted py-0">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
+                                <p class="text-muted py-0">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
+                                <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
+                                <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
+                                <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <p class="text-dark fw-semibold mb-0 lh-sm">Yetenek çözümleri</p>
+                                <p class="text-muted">Yetenekleri bulun, onların ilgisini çekin ve işe alın.</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-        </div>          
-               
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-
             </div>
-            <div class="col-7"></div>
-            <div class="col-3"></div>
         </div>
     </div>
+
+    <div class="bg-body-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-grid align-items-center">
+                                <img class="rounded-circle d-flex mx-auto mt-3 mb-3" src="https://picsum.photos/200" alt="" height="80">
+                            <a class="text-center text-decoration-none text-dark fw-semibold" href="">User Name</a>
+                            <p class="text-center fw-light">User characteristics</p>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row" id="button-in-user-card" role="button">
+                                    <div class="col-10">
+                                        <p class="mb-0 text-black-50 fw-semibold">bağlantı</p>
+                                    </div>
+                                    <div class="col-2 d-flex justify-content-end">
+                                        <p class="mb-0 text-primary">80</p>
+                                    </div>
+                                </div>
+                                <div class="row" id="button-in-user-card" role="button">
+                                    <p class="fw-semibold">İletişim ağınızı büyütün</p>
+                                </div>
+                              
+                                <div class="row d-flex justify-content-between" id="button-in-user-card" role="button">
+                                    <div class="col-10">
+                                        <p class="text-black-50 fw-semibold">Kişi profilinizi görüntüledi</p>
+                                    </div>
+                                    <div class="col-2 d-flex justify-content-end">
+                                        <p class="text-primary">1</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item" id="button-in-user-card" role="button">
+                                <div class="row">
+                                    <p class="text-black-50 mb-0">Özel araç ve içgörülere erişin</p>
+                                <span class="d-inline-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
+                                            <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                                            <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                                          </svg> &nbsp;
+                                          <a class="text-dark text-decoration-underline fw-semibold" href="">Premium'u ücretsiz deneyin</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="d-flex align-items-center p-1">
+                                    <i class="fa-solid fa-bookmark"></i> &nbsp;
+                                    <p class="text-dark-emphasis fw-bold my-auto ps-1">Ögelerim</p>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card mt-1">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-10 d-flex align-items-center">
+                                        <p class="my-1">En Yeni</p>
+                                    </div>
+                                    <div class="col-2 d-flex align-items-center justify-content-end">
+                                        <i class="fa-solid fa-angle-down fa-rotate-180"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <span class="d-flex align-items-center">
+                                        <i class="fa-solid fa-people-group"></i> &nbsp;
+                                        <p class="text-black-50 mb-0 ps-1">Group 1</p>
+                                    </span>
+                                </div>
+                                <div class="row">
+                                    <span class="d-flex align-items-center">
+                                        <i class="fa-regular fa-hashtag pe-2"></i> &nbsp;
+                                        <p class="text-black-50 mb-0">Group 2</p>
+                                    </span>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-10 d-flex align-items-center">
+                                        <a class="text-decoration-none my-1" href="">Gruplar</a>
+                                    </div>
+                                    <div class="col-2 d-flex align-items-center justify-content-end">
+                                        <i class="fa-solid fa-angle-down fa-rotate-180"></i>
+                                    </div>
+                                </div>
+                                    <div class="row">
+                                        <span class="d-flex align-items-center">
+                                            <i class="fa-solid fa-people-group"></i> &nbsp;
+                                            <p class="text-black-50 mb-0 ps-1">Group 1</p>
+                                        </span>
+                                    </div>
+                                    <div class="row mb-1">
+                                        <a class="text-decoration-none text-black-50 ms-4" href="">Tümünü gör</a>
+                                    </div>
+                                    <br>
+                                    <div class="row mb-2">
+                                        <div class="col-10 d-flex align-items-center">
+                                            <a class="text-decoration-none my-1" href="">Etkinlikler</a>
+                                        </div>
+                                        <div class="col-2 d-flex align-items-center justify-content-end">
+                                            <i class="fa-solid fa-angle-down fa-rotate-180"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1">
+                                        <div class="col-10 d-flex align-items-center">
+                                            <a class="text-decoration-none my-1" href="">Takip edilen hashtagler</a>
+                                        </div>
+                                        <div class="col-2 d-flex align-items-center justify-content-end">
+                                            <i class="fa-solid fa-angle-down fa-rotate-180"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <span class="d-flex align-items-center">
+                                            <i class="fa-regular fa-hashtag pe-2"></i> &nbsp;
+                                            <p class="text-black-50 mb-0">Group 2</p>
+                                        </span>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <a class="text-decoration-none text-black-50 ms-4" href="">Tümünü gör</a>
+                                    </div>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="text-center fw-bold text-black-50 my-auto py-1">Daha fazla keşfet</p>
+                            </li>
+                        </ul>
+                    </div>                
+                </div>
+
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="row d-flex">
+                                            <div class="col-1 ps-0 d-flex">
+                                                <img class="rounded-circle d-flex align-items-center" src="https://picsum.photos/200" alt="" height="45">
+                                            </div>
+                                            <div class="col-11 d-flex pe-0">
+                                                <!-- Button trigger modal -->
+                                                <button class="btn btn-outline-secondary text-start text-black-50 fw-semibold rounded-pill w-100" role="button" value="Gönderi başlat" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    Gönderi başlat</button>
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                            ...
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row d-flex mt-2">
+                                            <div class="col-3 d-flex mx-auto">
+                                                <button class=" btn btn-outline-none d-flex align-items-center px-1" role="button">
+                                                    <i class="fa-regular fa-image fa-flip-horizontal me-2"></i>
+                                                    <span class="text-black-50 fw-semibold">Fotoğraf</span>
+                                                </button>
+                                            </div>
+                                            <div class="col-3 d-flex mx-auto">
+                                                <button class=" btn btn-outline-none d-flex align-items-center px-1" role="button">
+                                                    <i class="fa-brands fa-youtube me-2"></i>
+                                                    <span class="text-black-50 fw-semibold">Video</span>
+                                                </button> 
+                                            </div>
+                                            <div class="col-3 d-flex mx-auto">
+                                                <button class=" btn btn-outline-none d-flex align-items-center px-1" role="button">
+                                                    <i class="fa-regular fa-calendar me-2"></i>
+                                                    <span class="text-black-50 fw-semibold">Etkinlik</span>
+                                                </button>
+                                            </div>
+                                            <div class="col-3 d-flex mx-auto pe-0">
+                                                <button class=" btn btn-outline-none d-flex align-items-center px-1" role="button">
+                                                    <i class="fa-regular fa-file-lines me-2"></i>
+                                                    <span class="text-black-50 fw-semibold">Yazı yaz</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row d-flex">
+                            <div class="btn-group px-0 mx-0">
+                                <button type="button" class="btn btn-outline-none dropdown-toggle d-flex align-items-center p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <hr class="w-75 me-1">
+                                    <span class="text-black-50 text-end me-1">Sıralama ölçütü:</span><span class="fw-semibold text-end">En önemli</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                  <li><button class="dropdown-item" type="button">En önemli</button></li>
+                                  <li><button class="dropdown-item" type="button">En yeni</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>    
+                </div>    
+        
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
